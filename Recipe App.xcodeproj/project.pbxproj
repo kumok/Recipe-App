@@ -19,6 +19,12 @@
 		71F67B6C192C8D6A00E609F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71F67B54192C8D6A00E609F1 /* UIKit.framework */; };
 		71F67B74192C8D6A00E609F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 71F67B72192C8D6A00E609F1 /* InfoPlist.strings */; };
 		71F67B76192C8D6A00E609F1 /* Recipe_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F67B75192C8D6A00E609F1 /* Recipe_AppTests.m */; };
+		EA1D37BF1A61A57000682D1E /* TitleDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1D37BE1A61A57000682D1E /* TitleDetailViewController.m */; };
+		EAC1019C1A5F7C3B0066FFE7 /* RecipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC1019B1A5F7C3B0066FFE7 /* RecipeViewController.m */; };
+		EAC1019F1A5F7E500066FFE7 /* RARecipes.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC1019E1A5F7E500066FFE7 /* RARecipes.m */; };
+		EAC101A21A5F7FF20066FFE7 /* RecipesTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC101A11A5F7FF20066FFE7 /* RecipesTableViewDataSource.m */; };
+		EAC101A91A5F87080066FFE7 /* RATableViewCellGreen.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC101A81A5F87080066FFE7 /* RATableViewCellGreen.m */; };
+		EAC101AC1A5F87330066FFE7 /* RATableViewCellRed.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC101AB1A5F87330066FFE7 /* RATableViewCellRed.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +54,18 @@
 		71F67B71192C8D6A00E609F1 /* Recipe AppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Recipe AppTests-Info.plist"; sourceTree = "<group>"; };
 		71F67B73192C8D6A00E609F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		71F67B75192C8D6A00E609F1 /* Recipe_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Recipe_AppTests.m; sourceTree = "<group>"; };
+		EA1D37BD1A61A57000682D1E /* TitleDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleDetailViewController.h; sourceTree = "<group>"; };
+		EA1D37BE1A61A57000682D1E /* TitleDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleDetailViewController.m; sourceTree = "<group>"; };
+		EAC1019A1A5F7C3B0066FFE7 /* RecipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeViewController.h; sourceTree = "<group>"; };
+		EAC1019B1A5F7C3B0066FFE7 /* RecipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeViewController.m; sourceTree = "<group>"; };
+		EAC1019D1A5F7E500066FFE7 /* RARecipes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RARecipes.h; sourceTree = "<group>"; };
+		EAC1019E1A5F7E500066FFE7 /* RARecipes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RARecipes.m; sourceTree = "<group>"; };
+		EAC101A01A5F7FF20066FFE7 /* RecipesTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipesTableViewDataSource.h; sourceTree = "<group>"; };
+		EAC101A11A5F7FF20066FFE7 /* RecipesTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipesTableViewDataSource.m; sourceTree = "<group>"; };
+		EAC101A71A5F87080066FFE7 /* RATableViewCellGreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RATableViewCellGreen.h; sourceTree = "<group>"; };
+		EAC101A81A5F87080066FFE7 /* RATableViewCellGreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RATableViewCellGreen.m; sourceTree = "<group>"; };
+		EAC101AA1A5F87330066FFE7 /* RATableViewCellRed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RATableViewCellRed.h; sourceTree = "<group>"; };
+		EAC101AB1A5F87330066FFE7 /* RATableViewCellRed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RATableViewCellRed.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +125,15 @@
 		71F67B56192C8D6A00E609F1 /* Recipe App */ = {
 			isa = PBXGroup;
 			children = (
+				EAC101A31A5F86910066FFE7 /* Cell */,
 				71F67B5F192C8D6A00E609F1 /* RAAppDelegate.h */,
 				71F67B60192C8D6A00E609F1 /* RAAppDelegate.m */,
+				EAC1019A1A5F7C3B0066FFE7 /* RecipeViewController.h */,
+				EAC1019B1A5F7C3B0066FFE7 /* RecipeViewController.m */,
+				EAC101A01A5F7FF20066FFE7 /* RecipesTableViewDataSource.h */,
+				EAC101A11A5F7FF20066FFE7 /* RecipesTableViewDataSource.m */,
+				EAC1019D1A5F7E500066FFE7 /* RARecipes.h */,
+				EAC1019E1A5F7E500066FFE7 /* RARecipes.m */,
 				71F67B62192C8D6A00E609F1 /* Images.xcassets */,
 				71F67B57192C8D6A00E609F1 /* Supporting Files */,
 			);
@@ -118,6 +143,8 @@
 		71F67B57192C8D6A00E609F1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EA1D37BD1A61A57000682D1E /* TitleDetailViewController.h */,
+				EA1D37BE1A61A57000682D1E /* TitleDetailViewController.m */,
 				71F67B58192C8D6A00E609F1 /* Recipe App-Info.plist */,
 				71F67B59192C8D6A00E609F1 /* InfoPlist.strings */,
 				71F67B5C192C8D6A00E609F1 /* main.m */,
@@ -142,6 +169,17 @@
 				71F67B72192C8D6A00E609F1 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EAC101A31A5F86910066FFE7 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				EAC101A71A5F87080066FFE7 /* RATableViewCellGreen.h */,
+				EAC101A81A5F87080066FFE7 /* RATableViewCellGreen.m */,
+				EAC101AA1A5F87330066FFE7 /* RATableViewCellRed.h */,
+				EAC101AB1A5F87330066FFE7 /* RATableViewCellRed.m */,
+			);
+			name = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,8 +278,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAC101A91A5F87080066FFE7 /* RATableViewCellGreen.m in Sources */,
+				EAC1019F1A5F7E500066FFE7 /* RARecipes.m in Sources */,
+				EA1D37BF1A61A57000682D1E /* TitleDetailViewController.m in Sources */,
 				71F67B5D192C8D6A00E609F1 /* main.m in Sources */,
+				EAC101A21A5F7FF20066FFE7 /* RecipesTableViewDataSource.m in Sources */,
 				71F67B61192C8D6A00E609F1 /* RAAppDelegate.m in Sources */,
+				EAC101AC1A5F87330066FFE7 /* RATableViewCellRed.m in Sources */,
+				EAC1019C1A5F7C3B0066FFE7 /* RecipeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +482,7 @@
 				71F67B7B192C8D6A00E609F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		71F67B7C192C8D6A00E609F1 /* Build configuration list for PBXNativeTarget "Recipe AppTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +491,7 @@
 				71F67B7E192C8D6A00E609F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
